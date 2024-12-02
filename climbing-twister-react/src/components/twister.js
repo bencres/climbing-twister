@@ -139,7 +139,6 @@ const Twister = ({ colors = [], group1 = [], group2 = [] }) => {
               <Cell key={`cell-${index}`} fill={entry.color} stroke="none" />
             ))}
           </Pie>
-          <Tooltip />
         </PieChart>
       </div>
         <div>

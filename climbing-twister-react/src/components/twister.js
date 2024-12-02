@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { PieChart, Pie, Cell, Tooltip, Legend } from 'recharts';
 
-const SimplePieChart = ({ colors = [], group1 = [], group2 = [] }) => {
+const Twister = ({ colors = [], group1 = [], group2 = [] }) => {
   const [selectedColors, setSelectedColors] = useState(
     colors.map((color) => ({ ...color, checked: true }))
   );
@@ -176,4 +176,4 @@ const SimplePieChart = ({ colors = [], group1 = [], group2 = [] }) => {
   );
 };
 
-export default SimplePieChart;
+export default Twister;

@@ -61,6 +61,7 @@ const Twister = ({ colors = [], group1 = [], group2 = [] }) => {
       <div style={{ margin: '5px' }}>
         This is Twister, played on a climbing wall. 
         Win by being the last person on the wall. 
+        <a href="https://github.com/bencres/climbing-twister/tree/main" target="_blank">Artist Statement</a>
       </div>
       <h2>Rules:</h2>
       <div style={{ margin: '5px'}}>

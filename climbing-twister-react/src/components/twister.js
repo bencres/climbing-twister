@@ -58,6 +58,10 @@ const Twister = ({ colors = [], group1 = [], group2 = [] }) => {
   return (
     <div>
       <h1>Climbing Twister</h1>
+      <div style={{ margin: '5px' }}>
+        This is Twister, played on a climbing wall. 
+        Win by being the last person on the wall. 
+      </div>
       <h2>Rules:</h2>
       <div style={{ margin: '5px'}}>
         This game requires one coach and at least one player. 
@@ -73,7 +77,7 @@ const Twister = ({ colors = [], group1 = [], group2 = [] }) => {
         <br />
         If a move is impossible, the coach should create a possible version by (in order of priority): 
         changing the color; changing the hold; changing the move; or, if none are possible, re-spinning 
-        for a new combination. 
+        for a new combination, or creating a new combination that makes sense to the coach. 
       </div>
       {/* Render checkboxes for each group */}
       <div style={{ marginBottom: '5px' }}>
